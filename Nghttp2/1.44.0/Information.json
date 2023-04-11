@@ -9,7 +9,13 @@
   "md5sums": ["d9702786d89ec8053a96ab4768a172e4"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    }
+  ],
   "options": [
     {
       "name": "Libxml2",
