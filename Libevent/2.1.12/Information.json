@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Event notification library",
   "website": "https://github.com/libevent/libevent",
-  "downloadLinks": ["https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz"],
-  "md5sums": ["b5333f021f880fe76490d8a799cd79f4"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

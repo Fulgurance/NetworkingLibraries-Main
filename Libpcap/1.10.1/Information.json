@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Packet Capture library",
   "website": " https://www.tcpdump.org",
-  "downloadLinks": ["https://www.tcpdump.org/release/libpcap-1.10.1.tar.gz"],
-  "md5sums": ["28e17495004036567c2cc884b51eba45"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {
