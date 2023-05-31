@@ -1,0 +1,90 @@
+{
+  "port": "NetworkingLibraries-Main",
+  "name": "Libwebp",
+  "version": "1.2.1",
+  "architectures": ["x86_64"],
+  "description": "Modern image format that provides superior lossless and lossy compression for images on the web",
+  "website": "https://developers.google.com/speed/webp",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    }
+  ],
+  "options": [
+    {
+      "name": "Libjpeg-Turbo",
+      "description": "Enable libjpeg-turbo support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libjpeg-Turbo",
+          "version": "2.1.1",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Libpng",
+      "description": "Enable libpng support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libpng",
+          "version": "1.6.37",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Libtiff",
+      "description": "Enable libtiff support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libtiff",
+          "version": "4.3.0",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sdl",
+      "description": "Enable sdl support for improved 3D acceleration",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Sdl",
+          "version": "1.2.15",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Freeglut",
+      "description": "Enable freeglut support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Freeglut",
+          "version": "3.2.1",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Giflib",
+      "description": "Enable giflib support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Giflib",
+          "version": "5.2.1",
+          "options": []
+        }
+      ]
+    }
+  ]
+}

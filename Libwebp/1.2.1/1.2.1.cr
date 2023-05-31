@@ -4,10 +4,12 @@ class Target < ISM::Software
         super
 
         configureSource([   "--prefix=/usr",
-                            "--disable-static",
-                            "--with-openssl",
-                            "--enable-threaded-resolver",
-                            "--with-ca-path=/etc/ssl/certs"],
+                            "--enable-libwebpmux",
+                            "--enable-libwebpdemux",
+                            "--enable-libwebpdecoder",
+                            "--enable-libwebpextras",
+                            "--enable-swap-16bit-csp",
+                            "--disable-static"],
                             buildDirectoryPath)
     end
 
