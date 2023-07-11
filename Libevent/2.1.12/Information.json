@@ -2,7 +2,9 @@
   "port": "NetworkingLibraries-Main",
   "name": "Libevent",
   "version": "2.1.12",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Event notification library",
   "website": "https://github.com/libevent/libevent",
   "installedFiles": [],

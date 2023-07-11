@@ -2,7 +2,9 @@
   "port": "NetworkingLibraries-Main",
   "name": "Curl",
   "version": "7.78.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Command line tool and library for transferring data with URLs",
   "website": "https://curl.se/",
   "installedFiles": [],
@@ -25,7 +27,8 @@
           "version": "1.7.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

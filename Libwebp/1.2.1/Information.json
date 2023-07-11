@@ -2,7 +2,9 @@
   "port": "NetworkingLibraries-Main",
   "name": "Libwebp",
   "version": "1.2.1",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Modern image format that provides superior lossless and lossy compression for images on the web",
   "website": "https://developers.google.com/speed/webp",
   "installedFiles": [],
@@ -25,7 +27,8 @@
           "version": "2.1.1",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Libpng",
@@ -37,7 +40,8 @@
           "version": "1.6.37",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Libtiff",
@@ -49,7 +53,8 @@
           "version": "4.3.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Sdl",
@@ -61,7 +66,8 @@
           "version": "1.2.15",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Freeglut",
@@ -73,7 +79,8 @@
           "version": "3.2.1",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Giflib",
@@ -85,7 +92,8 @@
           "version": "5.2.1",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }
