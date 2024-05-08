@@ -1,0 +1,24 @@
+{
+  "port": "NetworkingLibraries-Main",
+  "name": "Kdsoap",
+  "version": "2.1.1",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "A Qt-based client-side and server-side SOAP component ",
+  "website": "https://github.com/KDAB/KDSoap",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Qt",
+      "version": "5.15.10",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
