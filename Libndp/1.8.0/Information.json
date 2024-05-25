@@ -2,14 +2,13 @@
   "port": "NetworkingLibraries-Main",
   "name": "Libndp",
   "version": "1.8.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Library which provides a wrapper for IPv6 Neighbor Discovery Protocol",
   "website": "http://libndp.org/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "BaseLibraries-Main",
       "name": "SystemBase",
       "version": ">=0.2.0",
       "options": []

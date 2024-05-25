@@ -2,14 +2,13 @@
   "port": "NetworkingLibraries-Main",
   "name": "Curl",
   "version": "8.2.1",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Command line tool and library for transferring data with URLs",
   "website": "https://curl.se/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "BaseLibraries-Main",
       "name": "SystemBase",
       "version": ">=0.2.0",
       "options": []
@@ -23,6 +22,7 @@
       "active": true,
       "dependencies": [
         {
+          "port": "Security-Main",
           "name": "Make-Ca",
           "version": ">=1.12.0",
           "options": []

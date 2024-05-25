@@ -2,16 +2,15 @@
   "port": "NetworkingLibraries-Main",
   "name": "Libpcap",
   "version": "1.10.1",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Packet Capture library",
   "website": " https://www.tcpdump.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "BaseLibraries-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     }
   ],
@@ -23,8 +22,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Security-Main",
           "name": "Linux-Pam",
-          "version": "1.5.3",
+          "version": ">=1.5.3",
           "options": []
         }
       ],

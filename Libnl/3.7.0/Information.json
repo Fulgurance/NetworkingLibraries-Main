@@ -2,16 +2,15 @@
   "port": "NetworkingLibraries-Main",
   "name": "Libnl",
   "version": "3.7.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Netlink Library Suite",
   "website": "https://curl.se/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "BaseLibraries-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     }
   ],
