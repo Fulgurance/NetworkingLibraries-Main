@@ -3,8 +3,8 @@ class Target < ISM::Software
     def prepare
         super
 
-        fileDeleteLine("#{buildDirectoryPath(false)}/libcap/Makefile",190)
-        fileDeleteLine("#{buildDirectoryPath(false)}/libcap/Makefile",200)
+        fileDeleteLine("#{buildDirectoryPath}/libcap/Makefile",190)
+        fileDeleteLine("#{buildDirectoryPath}/libcap/Makefile",200)
     end
 
     def build
