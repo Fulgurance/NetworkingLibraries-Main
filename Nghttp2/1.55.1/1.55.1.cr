@@ -3,11 +3,11 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource([   "--prefix=/usr",
-                            "--disable-static",
-                            "--enable-lib-only",
-                            "--docdir=/usr/share/doc/nghttp2-1.55.1"],
-                            buildDirectoryPath)
+        configureSource(arguments:  "--prefix=/usr
+                                    --disable-static
+                                    --enable-lib-only
+                                    --docdir=/usr/share/doc/nghttp2-1.55.1",
+                        path:       buildDirectoryPath)
     end
 
     def build
@@ -19,7 +19,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}/#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}/#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end

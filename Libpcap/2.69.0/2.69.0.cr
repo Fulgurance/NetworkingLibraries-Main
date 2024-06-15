@@ -10,7 +10,8 @@ class Target < ISM::Software
     def build
         super
 
-        makeSource(["prefix=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr","lib=lib"],path: buildDirectoryPath)
+        makeSource( arguments:  "prefix=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr lib=lib",
+                    path:       buildDirectoryPath)
     end
     
     def prepareInstallation
@@ -18,7 +19,8 @@ class Target < ISM::Software
 
         makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr")
 
-        makeSource(["prefix=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr","lib=lib","install"],buildDirectoryPath)
+        makeSource( arguments:  "prefix=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr lib=lib install",
+                    path:       buildDirectoryPath)
     end
 
 end

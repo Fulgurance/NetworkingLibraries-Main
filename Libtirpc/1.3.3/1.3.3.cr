@@ -3,10 +3,10 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource(arguments: ["--prefix=/usr",
-                                    "--sysconfdir=/etc",
-                                    "--disable-static",
-                                    "--disable-gssapi"],
+        configureSource(arguments:  "--prefix=/usr      \
+                                    --sysconfdir=/etc   \
+                                    --disable-static    \
+                                    --disable-gssapi",
                         path: buildDirectoryPath)
     end
     
@@ -19,7 +19,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end

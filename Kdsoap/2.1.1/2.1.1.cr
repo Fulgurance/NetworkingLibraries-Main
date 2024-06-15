@@ -8,11 +8,11 @@ class Target < ISM::Software
     def configure
         super
 
-        runCmakeCommand([   "-DCMAKE_INSTALL_PREFIX=/usr",
-                            "-DCMAKE_BUILD_TYPE=Release",
-                            "-DCMAKE_INSTALL_DOCDIR=/usr/share/doc/kdsoap-2.1.1",
-                            ".."],
-                            buildDirectoryPath)
+        runCmakeCommand(arguments:  "-DCMAKE_INSTALL_PREFIX=/usr                        \
+                                    -DCMAKE_BUILD_TYPE=Release                          \
+                                    -DCMAKE_INSTALL_DOCDIR=/usr/share/doc/kdsoap-2.1.1  \
+                                    ..",
+                        path:       buildDirectoryPath)
     end
     
     def build
@@ -24,7 +24,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end

@@ -3,14 +3,14 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource([   "--prefix=/usr",
-                            "--enable-libwebpmux",
-                            "--enable-libwebpdemux",
-                            "--enable-libwebpdecoder",
-                            "--enable-libwebpextras",
-                            "--enable-swap-16bit-csp",
-                            "--disable-static"],
-                            buildDirectoryPath)
+        configureSource(arguments:  "--prefix=/usr          \
+                                    --enable-libwebpmux     \
+                                    --enable-libwebpdemux   \
+                                    --enable-libwebpdecoder \
+                                    --enable-libwebpextras  \
+                                    --enable-swap-16bit-csp \
+                                    --disable-static",
+                        path:       buildDirectoryPath)
     end
 
     def build
@@ -22,7 +22,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end
