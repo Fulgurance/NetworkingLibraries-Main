@@ -8,7 +8,7 @@ class Target < ISM::Software
                                     --with-openssl              \
                                     --enable-threaded-resolver  \
                                     --with-ca-path=/etc/ssl/certs",
-                            buildDirectoryPath)
+                        path:       buildDirectoryPath)
     end
 
     def build
