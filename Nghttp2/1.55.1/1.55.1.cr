@@ -3,9 +3,9 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource(arguments:  "--prefix=/usr
-                                    --disable-static
-                                    --enable-lib-only
+        configureSource(arguments:  "--prefix=/usr      \
+                                    --disable-static    \
+                                    --enable-lib-only   \
                                     --docdir=/usr/share/doc/nghttp2-1.55.1",
                         path:       buildDirectoryPath)
     end
