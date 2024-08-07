@@ -17,13 +17,13 @@
   "kernelDependencies": [],
   "options": [
     {
-      "name": "Krb5",
-      "description": "Enable krb5 support",
+      "name": "Mit-Krb5",
+      "description": "Enable mit-krb5 support",
       "active": false,
       "dependencies": [
         {
           "port": "NetworkingTools-Main",
-          "name": "Krb5",
+          "name": "Mit-Krb5",
           "version": ">=1.21.2",
           "options": []
         }
