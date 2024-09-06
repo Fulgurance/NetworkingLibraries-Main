@@ -1,7 +1,7 @@
 {
   "port": "NetworkingLibraries-Main",
   "name": "Libpcap",
-  "version": "1.10.1",
+  "version": "1.10.4",
   "architectures": ["x86_64"],
   "description": "Packet Capture library",
   "website": " https://www.tcpdump.org",
@@ -15,22 +15,7 @@
     }
   ],
   "kernelDependencies": [],
-  "options": [
-    {
-      "name": "Linux-Pam",
-      "description": "Enable linux-pam support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "Security-Main",
-          "name": "Linux-Pam",
-          "version": ">=1.5.3",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    }
-  ],
+  "options": [],
   "uniqueDependencies": [],
   "uniqueOptions": [],
   "selectedDependencies": [],
