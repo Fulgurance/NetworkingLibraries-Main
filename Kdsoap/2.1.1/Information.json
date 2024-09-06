@@ -3,7 +3,7 @@
   "name": "Kdsoap",
   "version": "2.1.1",
   "architectures": ["x86_64"],
-  "description": "A Qt-based client-side and server-side SOAP component ",
+  "description": "A Qt-based client-side and server-side SOAP component",
   "website": "https://github.com/KDAB/KDSoap",
   "installedFiles": [],
   "dependencies": [
