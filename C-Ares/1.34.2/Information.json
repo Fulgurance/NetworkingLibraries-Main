@@ -1,16 +1,16 @@
 {
   "port": "NetworkingLibraries-Main",
-  "name": "Libnl",
-  "version": "3.7.0",
+  "name": "C-Ares",
+  "version": "1.34.2",
   "architectures": ["x86_64"],
-  "description": "Netlink Library Suite",
-  "website": "https://github.com/thom311/libnl",
+  "description": "Modern DNS resolver library, written in C",
+  "website": "https://c-ares.org/",
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "SystemBase-Main",
-      "name": "SystemBase",
-      "version": ">=0.2.0",
+      "port": "ProgrammingTools-Main",
+      "name": "Cmake",
+      "version": ">=3.27.2",
       "options": []
     }
   ],

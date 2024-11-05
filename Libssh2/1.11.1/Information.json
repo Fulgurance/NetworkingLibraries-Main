@@ -1,10 +1,10 @@
 {
   "port": "NetworkingLibraries-Main",
-  "name": "Libnl",
-  "version": "3.7.0",
+  "name": "Libssh2",
+  "version": "1.11.1",
   "architectures": ["x86_64"],
-  "description": "Netlink Library Suite",
-  "website": "https://github.com/thom311/libnl",
+  "description": "Client-side C library implementing the SSH2 protocol",
+  "website": "https://libssh2.org",
   "installedFiles": [],
   "dependencies": [
     {

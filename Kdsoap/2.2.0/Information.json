@@ -1,16 +1,16 @@
 {
   "port": "NetworkingLibraries-Main",
-  "name": "Libnl",
-  "version": "3.7.0",
+  "name": "Kdsoap",
+  "version": "2.2.0",
   "architectures": ["x86_64"],
-  "description": "Netlink Library Suite",
-  "website": "https://github.com/thom311/libnl",
+  "description": "A Qt-based client-side and server-side SOAP component",
+  "website": "https://github.com/KDAB/KDSoap",
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "SystemBase-Main",
-      "name": "SystemBase",
-      "version": ">=0.2.0",
+      "port": "BaseLibraries-Main",
+      "name": "Qt",
+      "version": ">=5.0.0",
       "options": []
     }
   ],

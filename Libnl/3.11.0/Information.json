@@ -1,7 +1,7 @@
 {
   "port": "NetworkingLibraries-Main",
   "name": "Libnl",
-  "version": "3.7.0",
+  "version": "3.11.0",
   "architectures": ["x86_64"],
   "description": "Netlink Library Suite",
   "website": "https://github.com/thom311/libnl",

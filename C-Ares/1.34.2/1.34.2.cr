@@ -10,7 +10,6 @@ class Target < ISM::Software
 
         runCmakeCommand(arguments:  "-DCMAKE_INSTALL_PREFIX=/usr                        \
                                     -DCMAKE_BUILD_TYPE=Release                          \
-                                    -DCMAKE_INSTALL_DOCDIR=/usr/share/doc/#{versionName}\
                                     ..",
                         path:       buildDirectoryPath)
     end

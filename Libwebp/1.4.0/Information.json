@@ -1,0 +1,108 @@
+{
+  "port": "NetworkingLibraries-Main",
+  "name": "Libwebp",
+  "version": "1.4.0",
+  "architectures": ["x86_64"],
+  "description": "Modern image format that provides superior lossless and lossy compression for images on the web",
+  "website": "https://developers.google.com/speed/webp",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Libjpeg-Turbo",
+      "description": "Enable libjpeg-turbo support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "MultimediaLibraries-Main",
+          "name": "Libjpeg-Turbo",
+          "version": ">=3.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libpng",
+      "description": "Enable libpng support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libpng",
+          "version": ">=1.6.40",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Libtiff",
+      "description": "Enable libtiff support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Libtiff",
+          "version": ">=4.5.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Sdl12-Compat",
+      "description": "Enable sdl12-compat support for improved 3D acceleration",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "MultimediaLibraries-Main",
+          "name": "Sdl12-Compat",
+          "version": ">=1.2.64",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Freeglut",
+      "description": "Enable freeglut support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Freeglut",
+          "version": ">=3.4.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
+      "name": "Giflib",
+      "description": "Enable giflib support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "GraphicsLibraries-Main",
+          "name": "Giflib",
+          "version": ">=5.2.1",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

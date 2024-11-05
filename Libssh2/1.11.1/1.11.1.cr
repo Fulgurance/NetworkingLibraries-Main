@@ -1,20 +1,14 @@
 class Target < ISM::Software
-
-    def prepare
-        @buildDirectory = true
-        super
-    end
     
     def configure
         super
 
-        runCmakeCommand(arguments:  "-DCMAKE_INSTALL_PREFIX=/usr                        \
-                                    -DCMAKE_BUILD_TYPE=Release                          \
-                                    -DCMAKE_INSTALL_DOCDIR=/usr/share/doc/#{versionName}\
-                                    ..",
+        configureSource(arguments:  "--prefix=/usr          \
+                                    --disable-docker-tests  \
+                                    --disable-static",
                         path:       buildDirectoryPath)
     end
-    
+
     def build
         super
 
