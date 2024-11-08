@@ -8,9 +8,9 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "SystemBase-Main",
-      "name": "SystemBase",
-      "version": ">=0.2.0",
+      "port": "NetworkingLibraries-Main",
+      "name": "Libpsl",
+      "version": ">=0.21.5",
       "options": []
     }
   ],
