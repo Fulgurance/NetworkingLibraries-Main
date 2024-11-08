@@ -1,0 +1,23 @@
+{
+  "port": "NetworkingLibraries-Main",
+  "name": "Libpsl",
+  "version": "0.21.5",
+  "architectures": ["x86_64"],
+  "description": "C library for the Public Suffix List",
+  "website": "https://github.com/rockdaboot/libpsl",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "NetworkingLibraries-Main",
+      "name": "Libidn2",
+      "version": ">=2.3.7",
+      "options": ["Libunistring"]
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
