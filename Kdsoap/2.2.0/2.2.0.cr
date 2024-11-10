@@ -13,7 +13,7 @@ class Target < ISM::Software
                                     -DCMAKE_INSTALL_DOCDIR=/usr/share/doc/#{versionName}\
                                     -DKDSoap_QT6=ON                                     \
                                     ..",
-                        path:       mainWorkDirectoryPath)
+                        path:       buildDirectoryPath)
     end
     
     def build
