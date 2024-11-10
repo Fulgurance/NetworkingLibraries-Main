@@ -12,7 +12,7 @@ class Target < ISM::Software
                                     -DCMAKE_BUILD_TYPE=Release                          \
                                     -DCMAKE_INSTALL_DOCDIR=/usr/share/doc/#{versionName}\
                                     ..",
-                        path:       buildDirectoryPath)
+                        path:       mainWorkDirectoryPath)
     end
     
     def build
