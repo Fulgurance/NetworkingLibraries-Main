@@ -22,7 +22,7 @@
       "active": false,
       "dependencies": [
         {
-          "port": "NetworkingTools-Main",
+          "port": "NetworkingSoftwares-Main",
           "name": "Mit-Krb5",
           "version": ">=1.21.2",
           "options": []
