@@ -6,7 +6,7 @@ class Target < ISM::Software
         configureSource(arguments:  "--prefix=/usr      \
                                     --disable-static    \
                                     --enable-lib-only   \
-                                    --docdir=/usr/share/doc/nghttp2-1.55.1",
+                                    --disable-doc",
                         path:       buildDirectoryPath)
     end
 
