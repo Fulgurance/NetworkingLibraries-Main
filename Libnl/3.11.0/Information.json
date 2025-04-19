@@ -8,9 +8,9 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "SystemBase-Main",
-      "name": "SystemBase",
-      "version": ">=0.2.0",
+      "port": "Utilities-Main",
+      "name": "Flex",
+      "version": ">=2.6.4",
       "options": []
     }
   ],
