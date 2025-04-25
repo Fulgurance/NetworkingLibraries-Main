@@ -8,9 +8,9 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "SystemBase-Main",
-      "name": "SystemBase",
-      "version": ">=0.2.0",
+      "port": "SecuritySoftwares-Main",
+      "name": "Openssl",
+      "version": ">=3.4.0",
       "options": []
     }
   ],
