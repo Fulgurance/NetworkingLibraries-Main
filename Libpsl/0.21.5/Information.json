@@ -12,6 +12,12 @@
       "name": "Libidn2",
       "version": ">=2.3.7",
       "options": ["Libunistring"]
+    },
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Meson",
+      "version": ">=1.6.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
