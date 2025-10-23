@@ -1,0 +1,61 @@
+PORT
+    NetworkingLibraries-Main
+NAME
+    Libwebp
+VERSION
+    1.3.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Modern image format that provides superior lossless and lossy compression for images on the web
+WEBSITE
+    https://developers.google.com/speed/webp
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Libjpeg-Turbo
+    description: Enable libjpeg-turbo support
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Libjpeg-Turbo>=3.0.0
+    kernelDependencies:
+
+    name: Libpng
+    description: Enable libpng support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libpng>=1.6.40
+    kernelDependencies:
+
+    name: Libtiff
+    description: Enable libtiff support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libtiff>=4.5.1
+    kernelDependencies:
+
+    name: Sdl12-Compat
+    description: Enable sdl12-compat support for improved 3D acceleration
+    active: false
+    dependencies:
+        @MultimediaLibraries-Main:Sdl12-Compat>=1.2.64
+    kernelDependencies:
+
+    name: Freeglut
+    description: Enable freeglut support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Freeglut>=3.4.0
+    kernelDependencies:
+
+    name: Giflib
+    description: Enable giflib support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Giflib>=5.2.1
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

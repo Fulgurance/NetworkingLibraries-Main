@@ -1,0 +1,19 @@
+PORT
+    NetworkingLibraries-Main
+NAME
+    Libssh
+VERSION
+    0.11.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Multiplatform C library implementing the SSHv2 protocol on client and server side
+WEBSITE
+    https://www.libssh.org
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

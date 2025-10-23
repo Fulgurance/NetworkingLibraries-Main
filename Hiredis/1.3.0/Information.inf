@@ -1,0 +1,19 @@
+PORT
+    NetworkingLibraries-Main
+NAME
+    Hiredis
+VERSION
+    1.3.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Minimalistic C client for Redis
+WEBSITE
+    https://github.com/redis/hiredis
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

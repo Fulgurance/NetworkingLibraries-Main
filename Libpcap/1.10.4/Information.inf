@@ -1,0 +1,19 @@
+PORT
+    NetworkingLibraries-Main
+NAME
+    Libpcap
+VERSION
+    1.10.4
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Packet Capture library
+WEBSITE
+    https://www.tcpdump.org
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

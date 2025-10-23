@@ -1,0 +1,19 @@
+PORT
+    NetworkingLibraries-Main
+NAME
+    Libndp
+VERSION
+    1.9.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Library which provides a wrapper for IPv6 Neighbor Discovery Protocol
+WEBSITE
+    http://libndp.org/
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

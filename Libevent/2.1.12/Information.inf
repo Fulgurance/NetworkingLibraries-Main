@@ -1,0 +1,19 @@
+PORT
+    NetworkingLibraries-Main
+NAME
+    Libevent
+VERSION
+    2.1.12
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Event notification library
+WEBSITE
+    https://github.com/libevent/libevent
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

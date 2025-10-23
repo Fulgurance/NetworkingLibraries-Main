@@ -1,0 +1,26 @@
+PORT
+    NetworkingLibraries-Main
+NAME
+    Libtirpc
+VERSION
+    1.3.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Transport-Independent RPC library for Linux
+WEBSITE
+    https://sourceforge.net/projects/libtirpc/
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Mit-Krb5
+    description: Enable mit-krb5 support
+    active: false
+    dependencies:
+        @NetworkingSoftwares-Main:Mit-Krb5>=1.21.2
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

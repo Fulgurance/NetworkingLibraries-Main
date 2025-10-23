@@ -1,0 +1,19 @@
+PORT
+    NetworkingLibraries-Main
+NAME
+    Libssh2
+VERSION
+    1.11.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Client-side C library implementing the SSH2 protocol
+WEBSITE
+    https://libssh2.org
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

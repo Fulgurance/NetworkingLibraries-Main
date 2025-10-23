@@ -1,0 +1,19 @@
+PORT
+    NetworkingLibraries-Main
+NAME
+    Libnl
+VERSION
+    3.11.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Netlink Library Suite
+WEBSITE
+    https://github.com/thom311/libnl
+DEPENDENCIES
+        @Utilities-Main:Flex>=2.6.4
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

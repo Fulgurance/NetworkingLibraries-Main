@@ -1,0 +1,19 @@
+PORT
+    NetworkingLibraries-Main
+NAME
+    C-Ares
+VERSION
+    1.34.2
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Modern DNS resolver library, written in C
+WEBSITE
+    https://c-ares.org/
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
