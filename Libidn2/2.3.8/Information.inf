@@ -1,0 +1,26 @@
+PORT
+    NetworkingLibraries-Main
+NAME
+    Libidn2
+VERSION
+    2.3.8
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Implementation of the IDNA2008 and TR46 specifications
+WEBSITE
+    https://www.gnu.org/software/libidn/#TOClibidn2
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Libunistring
+    description: Enable libunistring support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Libunistring>=1.3.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -9,7 +9,7 @@ ARCHITECTURES
 DESCRIPTION
     Modern image format that provides superior lossless and lossy compression for images on the web
 WEBSITE
-    https://developers.google.com/speed/webp
+    https://chromium.googlesource.com/webm/libwebp
 DEPENDENCIES
         @SystemBase-Main:SystemBase>=0.2.0
 KERNELDEPENDENCIES

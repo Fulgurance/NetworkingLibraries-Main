@@ -1,17 +1,17 @@
 PORT
     NetworkingLibraries-Main
 NAME
-    Libndp
+    Libssh
 VERSION
-    1.9.0
+    0.11.3
 ARCHITECTURES
     x86_64
 DESCRIPTION
-    Library which provides a wrapper for IPv6 Neighbor Discovery Protocol
+    Multiplatform C library implementing the SSHv2 protocol on client and server side
 WEBSITE
-    https://github.com/jpirko/libndp
+    https://www.libssh.org
 DEPENDENCIES
-        @SystemBase-Main:SystemBase>=0.2.0
+        @ProgrammingTools-Main:Cmake>=3.27.2
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES
